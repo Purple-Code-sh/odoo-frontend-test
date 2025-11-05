@@ -10137,6 +10137,13 @@ footer {
   color: #152d5b;
 }
 
+.credit-card {
+  background-color: #1f1247;
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.1) 2px, transparent 2px);
+  background-size: 10px 10px;
+  border-radius: 12px;
+}
+
 .bg-color {
   background-color: #038aff;
 }
@@ -10200,45 +10207,12 @@ footer {
   margin-right: 15%;
 }
 
-.custom-container {
-  width: 80%;
-  margin-top: 100px;
-  margin-left: 20%;
-  display: block;
-}
-
 .mobile-section {
   display: none;
 }
 
 .img-card {
   width: 80%;
-}
-
-.push {
-  /* padding-top: 100px; */
-  margin-right: 2%;
-}
-
-.up {
-  top: -75px;
-}
-
-.up:hover {
-  transition: top 0.2s ease-in-out;
-  top: 75px;
-  cursor: pointer;
-  box-shadow: #000000;
-}
-
-.down {
-  top: 0px;
-}
-
-.down:hover {
-  cursor: pointer;
-  transition: top 0.2s ease-in-out;
-  top: -75px;
 }
 
 .circulo {
@@ -10640,9 +10614,6 @@ footer {
   .card-radius-2 {
     height: 450px;
   }
-  .custom-container {
-    display: none;
-  }
   .mobile-section {
     display: block;
   }
@@ -10653,12 +10624,6 @@ footer {
   }
 }
 @media (max-width: 1500px) {
-  .custom-container {
-    width: 90%;
-    margin-top: 100px;
-    margin-left: 12%;
-    display: block;
-  }
   .img-card {
     width: 100%;
   }
@@ -10716,12 +10681,25 @@ footer {
   .card-radius-2 {
     height: 450px;
   }
-  .custom-container {
-    display: none;
-  }
   .mobile-section {
     display: block;
   }
+}
+/* Reemplaza o añade esto en src/scss/_custom.scss 
+  (Tu archivo styles.css antiguo)
+*/
+.link-award {
+  text-decoration: none;
+  font-weight: 600; /* semi-bold */
+  color: var(--bs-dark);
+  border-bottom: 2px solid var(--bs-dark);
+  padding-bottom: 2px;
+  transition: all 0.2s ease;
+}
+
+.link-award:hover {
+  color: var(--bs-primary);
+  border-color: var(--bs-primary);
 }
 
 /*# sourceMappingURL=style.css.map */

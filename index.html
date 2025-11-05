@@ -85,6 +85,7 @@
           <a class="navbar-brand" href="#">
             <img src="/assets/odoo-white.svg" alt="Odoo Logo" height="30" />
           </a>
+
           <button
             class="navbar-toggler"
             type="button"
@@ -96,6 +97,7 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
+
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item">
@@ -114,6 +116,7 @@
                 <a class="nav-link" href="#">Docs</a>
               </li>
             </ul>
+
             <div class="ms-auto d-flex align-items-center">
               <a
                 href="#"
@@ -161,22 +164,22 @@
                   <div class="col">Trusted by:</div>
                   <div class="col">
                     <a href="https://google.com" target="_blank"
-                      ><img src="img/google-white.svg" alt="" width="80px"
+                      ><img src="/assets/google-white.svg" alt="" width="80px"
                     /></a>
                   </div>
                   <div class="col">
                     <a href="https://spotify.com" target="_blank"
-                      ><img src="img/spotify-white.svg" alt="" width="80px"
+                      ><img src="/assets/spotify-white.svg" alt="" width="80px"
                     /></a>
                   </div>
                   <div class="col">
                     <a href="https://airbnb.com" target="_blank"
-                      ><img src="img/airbnb-white.svg" alt="" width="80px"
+                      ><img src="/assets/airbnb-white.svg" alt="" width="80px"
                     /></a>
                   </div>
                   <div class="col">
                     <a href="https://paypal.com" target="_blank"
-                      ><img src="img/paypal-white.svg" alt="" width="80px"
+                      ><img src="/assets/paypal-white.svg" alt="" width="80px"
                     /></a>
                   </div>
                 </div>
@@ -197,15 +200,18 @@
                 </button>
               </div>
             </div>
-            <div
-              class="row p-4 text-white"
-              style="background-image: url(img/card1.png); border-radius: 20px"
-            >
+            <div class="row p-4 text-white credit-card">
               <div class="col align-content-start">
-                <img src="img/mastercard.svg" style="width: 50px" />
+                <img src="/assets/mastercard.svg" style="width: 50px" />
               </div>
               <div class="col text-end">
-                <button type="button" class="btn btn-info">Active</button>
+                <button
+                  type="button"
+                  class="btn btn-info text-white fw-bold border-0 px-2 py-1"
+                  style="background-color: #5ccaa7; border-radius: 10px"
+                >
+                  Active
+                </button>
               </div>
               <div class="col-12 mt-4">
                 <label>CARD NUMBER</label>
@@ -214,10 +220,10 @@
                 <label class="text-wrap">4358 - 7421 - 9256 - 6682</label>
               </div>
 
-              <div class="col-6">
+              <div class="col-6 mt-4">
                 <label>NAME</label>
               </div>
-              <div class="col-6">
+              <div class="col-6 mt-4">
                 <label>EXPIRY DATE</label>
               </div>
 
@@ -349,7 +355,7 @@
           <div
             class="col-sm-12 child2 mb-5 shadow-sm"
             style="
-              background-image: url('img/img_01.jpg');
+              background-image: url('/assets/img_01.jpg');
               background-size: cover;
             "
           >
@@ -442,7 +448,7 @@
           <div
             class="card-radius shadow-lg"
             style="
-              background-image: url('img/img_02.jpg');
+              background-image: url('/assets/img_02.jpg');
               background-size: cover;
             "
           >
@@ -492,7 +498,7 @@
           <div class="row">
             <div class="col-lg-6">
               <div class="card mb-4">
-                <img src="img/person_03.jpg" class="" alt="..." />
+                <img src="/assets/person_03.jpg" class="" alt="..." />
                 <div class="row card-body">
                   <div class="col-2">
                     <label
@@ -549,7 +555,7 @@
                   <div class="col-12 mb-3">
                     <img
                       class="p-4"
-                      src="img/airbnb.svg"
+                      src="/assets/airbnb.svg"
                       style="width: 180px"
                     />
                   </div>
@@ -570,22 +576,22 @@
               <div class="card mt-4 technologyCard">
                 <div class="row card-body text-center">
                   <div class="col-12 mt-3 mb-3">
-                    <img class="rounded-circle" src="img/company_01.png" />
+                    <img class="rounded-circle" src="/assets/company_01.png" />
                   </div>
                   <div class="col-12 mb-3 h5">Website UI Kit</div>
                   <div class="col-12 mb-4">
                     <img
                       class="rounded-circle position-relative person-circle"
-                      src="img/person_01.jpg"
+                      src="/assets/person_01.jpg"
                       style="margin-left: 0px"
                     />
                     <img
                       class="rounded-circle position-relative person-circle"
-                      src="img/person_02.jpg"
+                      src="/assets/person_02.jpg"
                     />
                     <img
                       class="rounded-circle position-relative person-circle"
-                      src="img/person_03.jpg"
+                      src="/assets/person_03.jpg"
                     />
                   </div>
                   <hr class="line mt-2 mb-3" />
@@ -725,7 +731,7 @@
           <div
             class="card-radius-2 shadow-lg"
             style="
-              background-image: url('img/img_03.jpg');
+              background-image: url('/assets/img_03.jpg');
               background-size: cover;
             "
           >
@@ -792,7 +798,6 @@
           <div class="col-12 mb-5">
             <div class="tools-3" style="width: 90px">Awards</div>
             <br />
-            <div class="col h5">Infinite solutions</div>
             <br />
             <div class="col h4">
               Awards for design, creativity, and innovation on the Internet
@@ -802,203 +807,115 @@
         </div>
       </div>
 
-      <div class="custom-container">
-        <div class="row push">
-          <div class="col-2 col-awards mb-3 down">
-            <div class="card">
-              <div class="row card-body text-center">
-                <div class="col-12 mb-3">
-                  <img class="p-3 img-card" src="img/airbnb.svg" />
+      <div class="bg-awards">
+        <div class="container section-7"></div>
+
+        <div
+          class="container"
+          style="margin-top: -50px; position: relative; z-index: 2"
+        >
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-5 g-4">
+            <div class="col">
+              <div class="card h-100 border-0 shadow-sm rounded-3">
+                <div class="card-body text-center p-4">
+                  <img
+                    src="/assets/airbnb.svg"
+                    class="img-fluid my-4"
+                    style="max-height: 40px"
+                    alt="Airbnb"
+                  />
+                  <div class="mb-3">
+                    <i class="bi-star text-warning"></i>
+                    <i class="bi-star text-warning"></i>
+                    <i class="bi-star text-warning"></i>
+                    <i class="bi-star text-warning"></i>
+                    <i class="bi-star" style="color: #e0e0e0"></i>
+                  </div>
+                  <h5 class="fw-bold card-title" style="font-size: 1.1rem">
+                    4.95 out of 5 stars
+                  </h5>
+                  <p class="text-muted small">from 23 reviews</p>
                 </div>
-                <div class="col-12 mb-5 h5">
-                  <i class="bi-star text-warning"></i>
-                  <i class="bi-star text-warning"></i>
-                  <i class="bi-star text-warning"></i>
-                  <i class="bi-star text-warning"></i>
-                  <i class="bi-star" style="color: rgb(192, 192, 192)"></i>
-                </div>
-                <div class="col-12 mb-3 h4">4.95 out of 5 stars</div>
-                <div class="col-12 mb-5 text-secondary h6">from 23 reviews</div>
               </div>
             </div>
-          </div>
 
-          <div class="col-2 col-awards mb-3 up">
-            <div class="card">
-              <div class="row card-body text-center p-3">
-                <div class="col-12 mb-3">
-                  <img class="p-4 img-card" src="img/amazon.svg" />
-                </div>
-                <div class="col-12 h6 p-4 text-secondary">
-                  <p class="card-title">
-                    They build modern looking websites easily using Tabs
+            <div class="col">
+              <div class="card h-100 border-0 shadow-sm rounded-3">
+                <div class="card-body text-center p-4 d-flex flex-column">
+                  <img
+                    src="/assets/amazon.svg"
+                    class="img-fluid my-4"
+                    style="max-height: 40px"
+                    alt="Amazon"
+                  />
+                  <p class="card-text text-secondary mb-4">
+                    They build modern looking websites easily using Tabs.
                   </p>
-                </div>
-
-                <div class="col-12 mb-5 text-secondary h6">
-                  <a href="#" class="underline-2" style="text-decoration: none"
-                    >Learn more</a
-                  >
+                  <div class="mt-auto">
+                    <a href="#" class="link-award">Learn more</a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-2 col-awards mb-3 down">
-            <div class="card">
-              <div class="row card-body text-center p-3">
-                <div class="col-12 mb-3">
-                  <img class="p-4 img-card" src="img/slack.svg" />
-                </div>
-                <div class="col-12 h6 p-4 text-secondary">
-                  <p class="card-title">
-                    They build modern looking websites easily using Trello
+
+            <div class="col">
+              <div class="card h-100 border-0 shadow-sm rounded-3">
+                <div class="card-body text-center p-4 d-flex flex-column">
+                  <img
+                    src="/assets/slack.svg"
+                    class="img-fluid my-4"
+                    style="max-height: 40px"
+                    alt="Slack"
+                  />
+                  <p class="card-text text-secondary mb-4">
+                    They build modern looking websites easily using Trello.
                   </p>
-                </div>
-                <div class="col-12 mb-5 text-secondary h6">
-                  <a href="#" class="underline-2" style="text-decoration: none"
-                    >Learn more</a
-                  >
+                  <div class="mt-auto">
+                    <a href="#" class="link-award">Learn more</a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-2 col-awards mb-3 up">
-            <div class="card">
-              <div class="row card-body text-center">
-                <div class="col-12 mb-3">
-                  <img class="p-4 img-card" src="img/spotify.svg" />
+            <div class="col">
+              <div class="card h-100 border-0 shadow-sm rounded-3">
+                <div class="card-body text-center p-4">
+                  <img
+                    src="/assets/spotify.svg"
+                    class="img-fluid my-4"
+                    style="max-height: 40px"
+                    alt="Spotify"
+                  />
+                  <div class="mb-3">
+                    <i class="bi-star text-warning"></i>
+                    <i class="bi-star text-warning"></i>
+                    <i class="bi-star text-warning"></i>
+                    <i class="bi-star text-warning"></i>
+                    <i class="bi-star" style="color: #e0e0e0"></i>
+                  </div>
+                  <h5 class="fw-bold card-title" style="font-size: 1.1rem">
+                    4.95 out of 5 stars
+                  </h5>
+                  <p class="text-muted small">from 23 reviews</p>
                 </div>
-                <div class="col-12 mb-5 h5">
-                  <i class="bi-star text-warning"></i>
-                  <i class="bi-star text-warning"></i>
-                  <i class="bi-star text-warning"></i>
-                  <i class="bi-star text-warning"></i>
-                  <i class="bi-star" style="color: rgb(192, 192, 192)"></i>
-                </div>
-                <div class="col-12 mb-3 h4">4.95 out of 5 stars</div>
-                <div class="col-12 mb-5 text-secondary h6">from 23 reviews</div>
               </div>
             </div>
-          </div>
 
-          <div class="col-2 col-awards mb-3 down">
-            <div class="card">
-              <div class="row card-body text-center p-3">
-                <div class="col-12 mb-2">
-                  <img class="p-4 img-card" src="img/paypal.svg" />
-                </div>
-                <div class="col-12 h6 p-4 text-secondary">
-                  <p class="card-title">
-                    They build modern looking websites easily using Tabs
+            <div class="col">
+              <div class="card h-100 border-0 shadow-sm rounded-3">
+                <div class="card-body text-center p-4 d-flex flex-column">
+                  <img
+                    src="/assets/paypal.svg"
+                    class="img-fluid my-4"
+                    style="max-height: 40px"
+                    alt="PayPal"
+                  />
+                  <p class="card-text text-secondary mb-4">
+                    They build modern looking websites easily using Docker.
                   </p>
-                </div>
-                <div class="col-12 mb-5 text-secondary h6">
-                  <a href="#" class="underline-2" style="text-decoration: none"
-                    >Learn more</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container mobile-section">
-        <div class="row">
-          <div class="col-sm-12 col-awards mb-5">
-            <div class="card">
-              <div class="row card-body text-center">
-                <div class="col-12 mb-3">
-                  <img class="p-3 img-card" src="img/airbnb.svg" />
-                </div>
-                <div class="col-12 mb-5 h5">
-                  <i class="bi-star text-warning"></i>
-                  <i class="bi-star text-warning"></i>
-                  <i class="bi-star text-warning"></i>
-                  <i class="bi-star text-warning"></i>
-                  <i class="bi-star" style="color: rgb(192, 192, 192)"></i>
-                </div>
-                <div class="col-12 mb-3 h4">4.95 out of 5 stars</div>
-                <div class="col-12 mb-5 text-secondary h6">from 23 reviews</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-awards mb-3">
-            <div class="card">
-              <div class="row card-body text-center p-3">
-                <div class="col-12 mb-3">
-                  <img class="p-4 img-card" src="img/amazon.svg" />
-                </div>
-                <div class="col-12 h6 p-4 text-secondary">
-                  <p class="card-title">
-                    They build modern looking websites easily using Tabs
-                  </p>
-                </div>
-
-                <div class="col-12 mb-5 text-secondary h6">
-                  <a href="#" class="underline-2" style="text-decoration: none"
-                    >Learn more</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-awards mb-3 mt-5">
-            <div class="card">
-              <div class="row card-body text-center p-3">
-                <div class="col-12 mb-3">
-                  <img class="p-4 img-card" src="img/slack.svg" />
-                </div>
-                <div class="col-12 h6 p-4 text-secondary">
-                  <p class="card-title">
-                    They build modern looking websites easily using Trello
-                  </p>
-                </div>
-                <div class="col-12 mb-5 text-secondary h6">
-                  <a href="#" class="underline-2" style="text-decoration: none"
-                    >Learn more</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-awards mb-5 mt-5">
-            <div class="card">
-              <div class="row card-body text-center">
-                <div class="col-12 mb-3">
-                  <img class="p-4 img-card" src="img/spotify.svg" />
-                </div>
-                <div class="col-12 mb-5 h5">
-                  <i class="bi-star text-warning"></i>
-                  <i class="bi-star text-warning"></i>
-                  <i class="bi-star text-warning"></i>
-                  <i class="bi-star text-warning"></i>
-                  <i class="bi-star" style="color: rgb(192, 192, 192)"></i>
-                </div>
-                <div class="col-12 mb-3 h4">4.95 out of 5 stars</div>
-                <div class="col-12 mb-5 text-secondary h6">from 23 reviews</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12 col-awards mb-5">
-            <div class="card">
-              <div class="row card-body text-center p-3">
-                <div class="col-12 mb-2">
-                  <img class="p-4 img-card" src="img/paypal.svg" />
-                </div>
-                <div class="col-12 h6 p-4 text-secondary">
-                  <p class="card-title">
-                    They build modern looking websites easily using Tabs
-                  </p>
-                </div>
-                <div class="col-12 mb-5 text-secondary h6">
-                  <a href="#" class="underline-2" style="text-decoration: none"
-                    >Learn more</a
-                  >
+                  <div class="mt-auto">
+                    <a href="#" class="link-award">Learn more</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1182,6 +1099,6 @@
     </div>
 
     <div class="containers-3"></div>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script src="/src/js/main.js" defer></script>
   </body>
 </html>
