@@ -1,0 +1,5 @@
+@use "../../node_modules/bootstrap/scss/bootstrap" with (
+  $primary: #038aff,
+  $body-bg: #ffffff
+);
+@use "custom";
