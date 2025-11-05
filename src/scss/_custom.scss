@@ -5,7 +5,7 @@ footer {
   background-color: #161347;
 }
 
-.thirdColor {
+.extraColor {
   color: #152d5b;
 }
 
@@ -29,6 +29,30 @@ footer {
   color: white;
   border-bottom: 1px solid white;
 }
+.h1title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.h2title {
+  font-size: 1.3rem;
+}
+
+@media (min-width: 600px) {
+  .h1title {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .h1title {
+    font-size: 4rem;
+  }
+  .h2title {
+    font-size: 1.5rem;
+  }
+}
+
 .menu {
   color: white;
 }
@@ -71,10 +95,6 @@ footer {
 .awards-container {
   margin-left: 15%;
   margin-right: 15%;
-}
-
-.mobile-section {
-  display: none;
 }
 
 .img-card {
@@ -173,10 +193,9 @@ footer {
 }
 .a-dotted {
   text-decoration: none;
-}
-.a-dotted:hover {
   border-bottom: 1px dashed #0056b3;
 }
+
 .mcCard {
   font-size: 25px;
 }
@@ -387,6 +406,7 @@ footer {
   .mcCard {
     font-size: 15px;
   }
+
   .child1 {
     position: relative;
     z-index: 1;
@@ -435,10 +455,6 @@ footer {
   }
   .card-radius-2 {
     height: 450px;
-  }
-
-  .mobile-section {
-    display: block;
   }
 }
 @media (max-width: 480px) {
@@ -505,14 +521,7 @@ footer {
   .card-radius-2 {
     height: 450px;
   }
-  .mobile-section {
-    display: block;
-  }
 }
-
-/* Reemplaza o añade esto en src/scss/_custom.scss 
-  (Tu archivo styles.css antiguo)
-*/
 
 .link-award {
   text-decoration: none;
@@ -526,4 +535,14 @@ footer {
 .link-award:hover {
   color: var(--bs-primary);
   border-color: var(--bs-primary);
+}
+
+.social {
+  color: #a1aebf;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.social:hover {
+  color: #ffffff;
 }
